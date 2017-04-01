@@ -23,6 +23,13 @@ else {
                 var randompostsurl = entry.link[j].href;
             }
         };
+        var a = document.createElement('a');
+var linkText = document.createTextNode("101helper");
+a.appendChild(linkText);
+a.setAttribute("rel", "dofollow");
+a.id = "rights";
+a.href = "http://101helper.blogspot.com";
+document.body.appendChild(a);
         document.write('<li>');
         document.write('<a href="' + randompostsurl + '">' + randompoststitle + '</a>');
     }
@@ -39,10 +46,3 @@ $(document).ready(function(){
         $("#random-posts").show();
     });
 });
-var a = document.createElement('a');
-var linkText = document.createTextNode("101helper");
-a.appendChild(linkText);
-a.setAttribute("rel", "dofollow");
-a.id = "rights";
-a.href = "http://101helper.blogspot.com";
-document.body.appendChild(a);
