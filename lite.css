@@ -39,10 +39,12 @@ html {
     border-radius: 100px;
     background: rgba(255, 255, 255, .85);
 }
-.x-nav,.x-search {
-    float: right;
+.x-nav, .x-search {
     font-size: 30px;
+    position: fixed;
     background: #fff;
+    right: 10px;
+    top: 10px;
     color: black;
 }
 .nav {
