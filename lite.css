@@ -215,16 +215,16 @@ height:100%;
 }
 
 .o-trend {
-border-bottom:3px solid #777474;
-color:#fff;
-border-radius:3px;
-box-shadow:1px 2px 3px 0 #666;
-font-weight:700;
-background:url(https://4.bp.blogspot.com/-lE-Tb5K4hks/WZRll-4dEWI/AAAAAAAAG6k/IpXxcae8WtEXi_QLXRli8nZ6LYVPd5PYwCLcBGAs/s1600/trend.png) #dd0606;
-background-position:25px 3px;
-background-size:30px;
-background-repeat:no-repeat;
-padding:10px 55px;
+    padding: 9px 55px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px 0px #666;
+    font-weight: bold;
+    background: url(https://4.bp.blogspot.com/-lE-Tb5K4hks/WZRll-4dEWI/AAAAAAAAG6k/IpXxcae8WtEXi_QLXRli8nZ6LYVPd5PYwCLcBGAs/s1600/trend.png) #dd0606;
+    background-position: 25px 3px;
+    background-size: 30px;
+    background-repeat: no-repeat;
 }
 
 #ad {
