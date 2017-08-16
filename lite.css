@@ -228,10 +228,10 @@ height:100%;
 }
 
 #ad {
-text-align:center;
-position:relative;
-padding-top:60px;
-height:90px;
+    text-align: center;
+    position: relative;
+    padding-top: 75px;
+    height: 56px;
 }
 
 #my-content {
