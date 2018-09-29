@@ -78,11 +78,6 @@ background:#eee;
     border: 0;
     padding: 10px 30px;
 }
-.mobile-index-title.entry-title {
-position:absolute;
-left:80px;
-font-size:14px;
-}
 .mobile-post-outer a {
     text-decoration: none;
 }
@@ -95,7 +90,7 @@ font-size:14px;
     font-weight: normal;
     color: #212121;
     text-decoration: none;
-    margin:0
+    margin: 5px 0px;
 }
 .widget-content {
 position:relative;
