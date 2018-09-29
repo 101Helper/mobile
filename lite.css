@@ -76,7 +76,7 @@ background:#eee;
 .mobile-date-outer.date-outer {
     background: #fff;
     border: 0;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 .mobile-post-outer a {
     text-decoration: none;
@@ -84,6 +84,7 @@ background:#eee;
 .Image img {
     width: 100%;
     height: 150px;
+    border: 1px solid #ddd;
 }
 .mobile-index-title.entry-title {
     font-size: 17px;
