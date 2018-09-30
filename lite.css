@@ -231,7 +231,9 @@ span.datetime.secondary-text {
     background: #eee;
     margin: 20px -10px -8px -5px;
 }
-
+#comments h2 {
+    text-align: center;
+}
 .clearfix a {
     color: #1983d8;
 }
