@@ -214,6 +214,19 @@ span.datetime.secondary-text {
 .comment-actions a {
     margin: 0px 5px;
 }
+.comment-block {
+    padding: 15px 10px;
+}
+.thread-toggle {
+    position: relative;
+    top: 10px;
+}
+.thread-toggle a {
+    color:#000
+}
+.comment-actions a:last-child {
+    color: #ed3725;
+}
 .clearfix a {
     color: #1983d8;
 }
