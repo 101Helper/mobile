@@ -56,8 +56,9 @@ img#logo {
     float: right;
     right: 15px;
 }
-div#main {
+#main {
     margin-top: 55px;
+    font-size: 14px;
 }
 .separator:first-child {
     display: none;
