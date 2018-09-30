@@ -227,6 +227,11 @@ span.datetime.secondary-text {
 .comment-actions a:last-child {
     color: #ed3725;
 }
+.comment-replies {
+    background: #eee;
+    margin: 20px -10px -8px -5px;
+}
+
 .clearfix a {
     color: #1983d8;
 }
