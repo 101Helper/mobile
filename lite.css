@@ -295,12 +295,13 @@ span.datetime.secondary-text {
     text-align: center;
 }
 .clearfix a {
-    color: #1983d8;
+    color: #FF5722;
 }
 .clearfix {
     margin-top: 60px;
     text-align: center;
-    background: #ddd;
     font-size: 13px;
     padding: 10px;
+    line-height: 1.9;
+    color: #000;
 }
