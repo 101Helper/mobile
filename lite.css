@@ -137,9 +137,6 @@ a.x-trend {
 .separator:first-child {
     display: none;
 }
-.navigation li a {
-    color: #ddd;
-}
 .post-title.entry-title {
 font-size:23px;
 padding-top:5px;
