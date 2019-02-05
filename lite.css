@@ -1,3 +1,94 @@
+.gsc-control-cse.gsc-control-cse-en {
+    background: none;
+    border: 0;
+}
+#PopularPosts2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+display:none
+}
+body.loading.mobile.noscroll {
+overflow:hidden
+  }
+.o-trend {
+    position: fixed;
+    right: 25px;
+    bottom: 40px;
+    box-shadow: 0px 2px 5px #444;
+    border-radius: 100px;
+    cursor: pointer;
+}
+a.x-trend {
+    position: fixed;
+    font-size: 30px;
+    color: #ef5858;
+    z-index: 999;
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 0px 2px 5px #bbb;
+    border-radius: 70px;
+    right: -10px;
+    top: -15px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+.trend-mobile {
+    position: fixed;
+    height: 100%;
+    z-index: 9999999999;
+    overflow-x: hidden;
+    top: 10px;
+}
+.trend-shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999999;
+    background: #fff;
+}
+.trend-mobile ul {
+    padding: 0;
+    margin: 0;
+}
+.trend-mobile ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    width: 300px;
+    padding: 0;
+}
+.trend-mobile .item-thumbnail {
+    float: none;
+    margin: 0;
+}
+.trend-mobile img {
+    margin-right: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 0;
+    width: 300px;
+    height: 160px;
+}
+.trend-mobile .item-title {
+    text-align: left;
+    float: left;
+}
+.trend-mobile li a {
+    color: #444;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+}
+.trend-mobile a:hover {
+    color: #222;
+    text-decoration: none;
+}
 #main {
     margin-top: 55px;
     font-size: 14px;
