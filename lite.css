@@ -131,7 +131,6 @@ a.x-trend {
     text-decoration: none;
 }
 #main {
-    margin-top: 55px;
     font-size: 14px;
 }
 .separator:first-child {
@@ -193,13 +192,13 @@ body {
     margin: 0;
 }
 a {
-color:#3993e2;
+color:#FF5722;
 text-decoration:none;
 }
 
 a:hover {
 text-decoration:underline;
-color:#287dc7;
+color:#FF5722;
 }
 
 a:visited {
@@ -296,6 +295,7 @@ span.datetime.secondary-text {
 }
 .clearfix a {
     color: #FF5722;
+    margin-right: 10px;
 }
 .clearfix {
     margin-top: 60px;
