@@ -1,3 +1,44 @@
+.nav-mob {
+    background: #fff;
+    text-align: center;
+    padding: 10px 5px;
+    float: left;
+    color: #000;
+    margin-top: 10px;
+}
+#search {
+    padding: 10px 0px;
+    color: #000;
+}
+#q {
+    padding: 5px 10px;
+    width: 97%;
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+}
+#q:focus {
+    outline: none;
+    border-color: #FF5722;
+}
+.navigation {
+    padding: 5px;
+    float: left;
+}
+.nav-mob li {
+    list-style: none;
+    float: left;
+    padding: 5px;
+    font-size: 14px;
+    margin: 2px;
+}
+.nav-mob li a {
+    color: #000;
+}
+::placeholder {
+ color:#000   
+}
 .gsc-control-cse.gsc-control-cse-en {
     background: none;
     border: 0;
