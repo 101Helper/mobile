@@ -55,7 +55,7 @@ overflow:hidden
 .o-trend {
     position: fixed;
     right: 25px;
-    bottom: 40px;
+    top: 20px;
     box-shadow: 0px 2px 5px #444;
     border-radius: 100px;
     cursor: pointer;
