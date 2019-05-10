@@ -6,6 +6,10 @@
     color: #000;
     margin-top: 10px;
 }
+#logo {
+    width: 200px;
+    float: left;
+}
 #search {
     padding: 10px 0px;
     color: #000;
@@ -55,7 +59,7 @@ overflow:hidden
 .o-trend {
     position: fixed;
     right: 25px;
-    top: 20px;
+    bottom: 50px;
     box-shadow: 0px 2px 5px #444;
     border-radius: 100px;
     cursor: pointer;
