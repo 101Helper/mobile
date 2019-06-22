@@ -317,3 +317,57 @@ span.datetime.secondary-text {
     line-height: 1.9;
     color: #000;
 }
+.sidebar-box {
+    max-height: 1600px;
+    position: relative;
+    overflow: hidden;
+}
+.sidebar-box .read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0 69px 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+.sidebar-box .read-more li {
+    list-style: none;
+    margin: 0px 0px 50px 0px;
+}
+.read-more a:hover {
+    background: #000;
+    color: #fff;
+}
+#subscribed {
+    padding: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #000;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    width: 350px;
+    margin: auto;
+	display:none
+}
+#not-subscribed {
+    padding: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    width: 400px;
+    background: #34d058;
+    margin: auto;
+    letter-spacing: 0.5px;
+}
+#not-subscribed:hover {
+    background: #28a745;
+}
