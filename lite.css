@@ -371,3 +371,6 @@ span.datetime.secondary-text {
 #not-subscribed:hover {
     background: #28a745;
 }
+#pushalert-ticker {
+    display: none;
+}
