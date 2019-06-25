@@ -374,3 +374,13 @@ span.datetime.secondary-text {
 #pushalert-ticker {
     display: none;
 }
+#lecture2 {
+    display: none;
+}
+div#lecture p {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+img#lock-img {
+    width: 90px;
+}
