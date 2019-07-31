@@ -468,3 +468,15 @@ form#box button {
 #box input:focus {
     outline: none;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 800px;
+}
+.pirate {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  margin-top:10px;
+}
