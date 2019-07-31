@@ -477,6 +477,6 @@ form#box button {
 .pirate {
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
-  margin-top:10px;
+  top: 105px;
+  margin-top:20px;
 }
