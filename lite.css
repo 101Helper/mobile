@@ -9,6 +9,7 @@
     padding: 0;
     height: 75px;
     z-index: 99999999;
+    background: #fff;
 }
 .ad {
     float: left;
