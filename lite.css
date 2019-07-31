@@ -1,10 +1,14 @@
+.contents {
+    margin-top: 92px;
+}
 .nav-mob {
-    background: #fff;
-    text-align: center;
-    padding: 10px 5px;
-    float: left;
-    color: #000;
-    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+    z-index: 99999999;
 }
 .ad {
     float: left;
@@ -62,13 +66,20 @@ body.loading.mobile.noscroll {
 overflow:hidden
   }
 .o-trend {
-    position: fixed;
-    right: 20px;
-    top: 15px;
-    box-shadow: 0px 2px 5px #444;
+    box-shadow: 0px 2px 5px #bbb;
     border-radius: 100px;
     cursor: pointer;
     z-index: 9999999;
+    background: red;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: right;
+    margin: 10px 5px;
+}
+.o-trend:hover {
+    color: #fff;
+    text-decoration: none;
 }
 a.x-trend {
     position: fixed;
@@ -384,4 +395,75 @@ div#lecture p {
 }
 img#lock-img {
     width: 90px;
+}
+#slogo img {
+    float: none;
+width:150px
+}
+div#slogo {
+    border-bottom: 2px solid #eee;
+}
+.nav-scroll {
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    padding: 5px 10px;
+    background: #fff;
+}
+.nav-scroll a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: #ff5e00;
+    border-radius: 100px;
+}
+.nav-scroll a:hover {
+    background-color: #777
+}
+.nav-scroll img {
+    width: 100px;
+    float: left;
+    height: 48px;
+    background: #fff
+}
+#box {
+    margin: 5px 0px;
+}
+form#box button {
+    background: #ff5e00;
+    border: 0;
+    height: 29px;
+    bottom: 0;
+    width: 31px;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    float: right;
+}
+#box button img {
+    width: 23px;
+    height: 23px;
+}
+#box input {
+    border: 1px solid #aaa;
+    padding: 6px 0px 6px 10px;
+    width: 200px;
+    border-right: 0;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.search {
+    width: 242px;
+    margin: auto;
+}
+.search-over {
+    background: #fff;
+    padding: 5px 0px;
+}
+#box input:focus {
+    outline: none;
 }
