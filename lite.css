@@ -21,6 +21,9 @@
     top: 36px;
     z-index: 99999999;
 }
+.nav-scroll {
+    overflow: auto;
+}
 }
 .ad {
     text-align: center;
@@ -405,7 +408,7 @@ width:150px
     text-align: center;
 }
 .nav-scroll {
-    overflow: auto;
+    overflow: hidden;
     white-space: nowrap;
     position: relative;
     padding: 5px 10px;
