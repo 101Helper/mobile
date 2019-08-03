@@ -175,7 +175,7 @@ background:#eee;
     text-decoration: none;
 }
 .Image img {
-    width: 110px;
+    width: 100px;
     border: 1px solid #ddd;
     float: left;
     margin-right: 10px;
@@ -186,7 +186,6 @@ background:#eee;
     color: #212121;
     text-decoration: none;
     margin: 5px 0px;
-    float: left;
 }
 .widget-content {
 position:relative;
