@@ -1,3 +1,6 @@
+.gsc-control-cse.gsc-control-cse-en {
+    padding: 0;
+}
 .nav-mob {
     position: sticky;
     width: 100%;
@@ -5,7 +8,7 @@
     padding: 0;
     z-index: 99999999;
     background: #fff;
-    top: 50px;
+    top: 0px;
 }
 .ad {
     float: left;
@@ -156,7 +159,6 @@ font-size:23px;
 padding-top:5px;
 }
 .mobile {
-overflow-x:hidden;
 background:#eee;
 }
 .mobile-date-outer.date-outer {
@@ -192,10 +194,6 @@ top:5px;
 position:relative;
 bottom:5px;
 }
-html {
-position:relative;
-bottom:15px;
-}
 .main-inner .date-outer {
 background:#fff;
 }
@@ -204,7 +202,6 @@ font-size:16px;
 padding:10px 0;
 }
 body {
-    background: #fff;
     font-size: 12px;
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -393,8 +390,9 @@ img#lock-img {
     float: none;
 width:150px
 }
-div#slogo {
-    border-bottom: 2px solid #eee;
+#slogo {
+    background: #fff;
+    text-align: center;
 }
 .nav-scroll {
     overflow: auto;
@@ -424,10 +422,10 @@ div#slogo {
 #box {
     margin: 5px 0px;
 }
-form#box button {
+#box button {
     background: #ff5e00;
     border: 0;
-    height: 29px;
+    height: 25px;
     bottom: 0;
     width: 31px;
     cursor: pointer;
@@ -438,12 +436,12 @@ form#box button {
     float: right;
 }
 #box button img {
-    width: 23px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
 }
 #box input {
-    border: 1px solid #aaa;
-    padding: 6px 0px 6px 10px;
+    border: 1px solid #fff;
+    padding: 4px 0px 4px 10px;
     width: 200px;
     border-right: 0;
     border-bottom-left-radius: 50px;
@@ -454,10 +452,7 @@ form#box button {
     margin: auto;
 }
 .search-over {
-    background: #fff;
-    padding: 5px 0px;
-    position: sticky;
-    top: 0px;
+    margin: 10px 0px;
 }
 #box input:focus {
     outline: none;
