@@ -19,6 +19,7 @@
     padding: 5px 0px;
     position: sticky;
     top: 36px;
+    z-index: 99999999;
 }
 }
 .ad {
