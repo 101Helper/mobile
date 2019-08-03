@@ -11,11 +11,9 @@
     top: 0px;
 }
 .ad {
-    float: left;
-    position: relative;
-    top: 10px;
     text-align: center;
     width: 100%;
+    margin: 20px 0px;
 }
 #logo {
     width: 150px
