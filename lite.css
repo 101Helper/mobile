@@ -2,14 +2,13 @@
     margin-top: 92px;
 }
 .nav-mob {
-    position: fixed;
-    top: 0px;
+    position: sticky;
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 75px;
     z-index: 99999999;
     background: #fff;
+    top: 50px;
 }
 .ad {
     float: left;
@@ -63,18 +62,15 @@
     width: 300px;
 display:none
 }
-body.loading.mobile.noscroll {
-overflow:hidden
-  }
 .o-trend {
     box-shadow: 0px 2px 5px #bbb;
-    border-radius: 100px;
+    border-radius: 3px;
     cursor: pointer;
     z-index: 9999999;
     background: red;
     color: #fff;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px;
     float: right;
     margin: 10px 5px;
 }
@@ -463,6 +459,8 @@ form#box button {
 .search-over {
     background: #fff;
     padding: 5px 0px;
+    position: sticky;
+    top: 0px;
 }
 #box input:focus {
     outline: none;
