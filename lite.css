@@ -1,6 +1,10 @@
 .gsc-control-cse.gsc-control-cse-en {
     padding: 0;
 }
+.mobile-date-outer.date-outer {
+    border-top: 1px solid #ddd;
+    padding: 5px 0 0px 0px;
+}
 .nav-mob {
     position: sticky;
     width: 100%;
@@ -293,7 +297,7 @@ img#lock-img {
 }
 #slogo img {
     float: none;
-width:150px
+width:200px
 }
 #slogo {
     background: #fff;
@@ -330,9 +334,9 @@ width:150px
 #box button {
     background: #ff5e00;
     border: 0;
-    height: 25px;
+    height: 32px;
     bottom: 0;
-    width: 31px;
+    width: 32px;
     cursor: pointer;
     outline: none;
     padding: 0;
@@ -341,8 +345,8 @@ width:150px
     float: right;
 }
 #box button img {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
 }
 #box input {
     border: 1px solid #eee;
@@ -354,7 +358,7 @@ width:150px
     background: #eee;
 }
 .search {
-    width: 242px;
+    width: 243px;
     margin: auto;
 }
 .search-over {
