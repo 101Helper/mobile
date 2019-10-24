@@ -5,6 +5,19 @@
     border-top: 1px solid #ddd;
     padding: 5px 0 0px 0px;
 }
+#blog-pager a {
+    color: #fff;
+    text-decoration: none;
+}
+#blog-pager {
+    background: #FF5722;
+    width: 250px;
+    margin: 35px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+}
 .nav-mob {
     position: sticky;
     width: 100%;
